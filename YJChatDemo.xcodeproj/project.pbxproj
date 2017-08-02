@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		636247DAC85FCF88C735566B /* libPods-YJChatDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E82BFD44DBDDBCA26C0F0E18 /* libPods-YJChatDemoUITests.a */; };
+		731E74B7CAC943028EF85C8D /* libPods-YJChatDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9FDCC14E2751BBA7CA33D5C /* libPods-YJChatDemo.a */; };
+		77C6B336FF44038E4335EA84 /* libPods-YJChatDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 550ACA4EF00413A4575913C7 /* libPods-YJChatDemoTests.a */; };
 		8D022F931F31B76C0032C4AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022F921F31B76C0032C4AA /* main.m */; };
 		8D022F961F31B76C0032C4AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022F951F31B76C0032C4AA /* AppDelegate.m */; };
 		8D022F991F31B76C0032C4AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022F981F31B76C0032C4AA /* ViewController.m */; };
@@ -16,6 +19,29 @@
 		8D022FA41F31B76C0032C4AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D022FA21F31B76C0032C4AA /* LaunchScreen.storyboard */; };
 		8D022FAF1F31B76C0032C4AA /* YJChatDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022FAE1F31B76C0032C4AA /* YJChatDemoTests.m */; };
 		8D022FBA1F31B76C0032C4AA /* YJChatDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022FB91F31B76C0032C4AA /* YJChatDemoUITests.m */; };
+		8D022FCA1F31B8A30032C4AA /* YJToolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022FC91F31B8A30032C4AA /* YJToolClass.m */; };
+		8D022FD81F31B8B50032C4AA /* YJTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022FCE1F31B8B50032C4AA /* YJTabBarButton.m */; };
+		8D022FD91F31B8B50032C4AA /* YJTabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022FD11F31B8B50032C4AA /* YJTabBarView.m */; };
+		8D022FDA1F31B8B50032C4AA /* YJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022FD31F31B8B50032C4AA /* YJBaseViewController.m */; };
+		8D022FDB1F31B8B50032C4AA /* YJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022FD51F31B8B50032C4AA /* YJNavigationController.m */; };
+		8D022FDC1F31B8B50032C4AA /* YJRootTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022FD71F31B8B50032C4AA /* YJRootTabBarController.m */; };
+		8D022FE31F31BBBB0032C4AA /* ChatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022FE21F31BBBB0032C4AA /* ChatsViewController.m */; };
+		8D022FE61F31BBD30032C4AA /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D022FE51F31BBD30032C4AA /* ContactsViewController.m */; };
+		8D0230101F31C1D90032C4AA /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02300F1F31C1D90032C4AA /* DiscoverViewController.m */; };
+		8D0230131F31C1ED0032C4AA /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0230121F31C1ED0032C4AA /* MeViewController.m */; };
+		8D0231691F31DC7C0032C4AA /* MBProgressHUD+LYJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02314A1F31DC7C0032C4AA /* MBProgressHUD+LYJ.m */; };
+		8D02316A1F31DC7C0032C4AA /* PPNetworkCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02314D1F31DC7C0032C4AA /* PPNetworkCache.m */; };
+		8D02316B1F31DC7C0032C4AA /* PPNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02314F1F31DC7C0032C4AA /* PPNetworkHelper.m */; };
+		8D02316C1F31DC7C0032C4AA /* UITableView+SDAutoTableViewCellHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231531F31DC7C0032C4AA /* UITableView+SDAutoTableViewCellHeight.m */; };
+		8D02316D1F31DC7C0032C4AA /* UIView+SDAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231551F31DC7C0032C4AA /* UIView+SDAutoLayout.m */; };
+		8D02316E1F31DC7C0032C4AA /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231591F31DC7C0032C4AA /* TAAbstractDotView.m */; };
+		8D02316F1F31DC7C0032C4AA /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02315B1F31DC7C0032C4AA /* TAAnimatedDotView.m */; };
+		8D0231701F31DC7C0032C4AA /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02315D1F31DC7C0032C4AA /* TADotView.m */; };
+		8D0231711F31DC7C0032C4AA /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D02315F1F31DC7C0032C4AA /* TAPageControl.m */; };
+		8D0231721F31DC7C0032C4AA /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231611F31DC7C0032C4AA /* SDCollectionViewCell.m */; };
+		8D0231731F31DC7C0032C4AA /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231631F31DC7C0032C4AA /* SDCycleScrollView.m */; };
+		8D0231741F31DC7C0032C4AA /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231651F31DC7C0032C4AA /* UIView+SDExtension.m */; };
+		8D0231751F31DC7C0032C4AA /* WRNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231681F31DC7C0032C4AA /* WRNavigationBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +62,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04CB6D1EC99AB538E78841C6 /* Pods-YJChatDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJChatDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJChatDemoTests/Pods-YJChatDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		06E7135F0990CFC08EBE44E8 /* Pods-YJChatDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJChatDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJChatDemoUITests/Pods-YJChatDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		29C68876F323426256C73F75 /* Pods-YJChatDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJChatDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJChatDemo/Pods-YJChatDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4B3685CBBF8C3B3ECAEED9B2 /* Pods-YJChatDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJChatDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJChatDemoUITests/Pods-YJChatDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		550ACA4EF00413A4575913C7 /* libPods-YJChatDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJChatDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D022F8E1F31B76C0032C4AA /* YJChatDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YJChatDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D022F921F31B76C0032C4AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D022F941F31B76C0032C4AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +84,58 @@
 		8D022FB51F31B76C0032C4AA /* YJChatDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YJChatDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D022FB91F31B76C0032C4AA /* YJChatDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YJChatDemoUITests.m; sourceTree = "<group>"; };
 		8D022FBB1F31B76C0032C4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D022FC81F31B8A30032C4AA /* YJToolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJToolClass.h; sourceTree = "<group>"; };
+		8D022FC91F31B8A30032C4AA /* YJToolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJToolClass.m; sourceTree = "<group>"; };
+		8D022FCD1F31B8B50032C4AA /* YJTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTabBarButton.h; sourceTree = "<group>"; };
+		8D022FCE1F31B8B50032C4AA /* YJTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTabBarButton.m; sourceTree = "<group>"; };
+		8D022FD01F31B8B50032C4AA /* YJTabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTabBarView.h; sourceTree = "<group>"; };
+		8D022FD11F31B8B50032C4AA /* YJTabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTabBarView.m; sourceTree = "<group>"; };
+		8D022FD21F31B8B50032C4AA /* YJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJBaseViewController.h; sourceTree = "<group>"; };
+		8D022FD31F31B8B50032C4AA /* YJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJBaseViewController.m; sourceTree = "<group>"; };
+		8D022FD41F31B8B50032C4AA /* YJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJNavigationController.h; sourceTree = "<group>"; };
+		8D022FD51F31B8B50032C4AA /* YJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJNavigationController.m; sourceTree = "<group>"; };
+		8D022FD61F31B8B50032C4AA /* YJRootTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJRootTabBarController.h; sourceTree = "<group>"; };
+		8D022FD71F31B8B50032C4AA /* YJRootTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJRootTabBarController.m; sourceTree = "<group>"; };
+		8D022FE11F31BBBB0032C4AA /* ChatsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatsViewController.h; sourceTree = "<group>"; };
+		8D022FE21F31BBBB0032C4AA /* ChatsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatsViewController.m; sourceTree = "<group>"; };
+		8D022FE41F31BBD30032C4AA /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		8D022FE51F31BBD30032C4AA /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		8D02300E1F31C1D90032C4AA /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		8D02300F1F31C1D90032C4AA /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		8D0230111F31C1ED0032C4AA /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		8D0230121F31C1ED0032C4AA /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		8D0230151F31C2D10032C4AA /* YJChatDemo.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJChatDemo.pch; sourceTree = "<group>"; };
+		8D0231491F31DC7C0032C4AA /* MBProgressHUD+LYJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LYJ.h"; sourceTree = "<group>"; };
+		8D02314A1F31DC7C0032C4AA /* MBProgressHUD+LYJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LYJ.m"; sourceTree = "<group>"; };
+		8D02314C1F31DC7C0032C4AA /* PPNetworkCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkCache.h; sourceTree = "<group>"; };
+		8D02314D1F31DC7C0032C4AA /* PPNetworkCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkCache.m; sourceTree = "<group>"; };
+		8D02314E1F31DC7C0032C4AA /* PPNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPNetworkHelper.h; sourceTree = "<group>"; };
+		8D02314F1F31DC7C0032C4AA /* PPNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPNetworkHelper.m; sourceTree = "<group>"; };
+		8D0231511F31DC7C0032C4AA /* SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAutoLayout.h; sourceTree = "<group>"; };
+		8D0231521F31DC7C0032C4AA /* UITableView+SDAutoTableViewCellHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+SDAutoTableViewCellHeight.h"; sourceTree = "<group>"; };
+		8D0231531F31DC7C0032C4AA /* UITableView+SDAutoTableViewCellHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+SDAutoTableViewCellHeight.m"; sourceTree = "<group>"; };
+		8D0231541F31DC7C0032C4AA /* UIView+SDAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDAutoLayout.h"; sourceTree = "<group>"; };
+		8D0231551F31DC7C0032C4AA /* UIView+SDAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDAutoLayout.m"; sourceTree = "<group>"; };
+		8D0231581F31DC7C0032C4AA /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		8D0231591F31DC7C0032C4AA /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		8D02315A1F31DC7C0032C4AA /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		8D02315B1F31DC7C0032C4AA /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		8D02315C1F31DC7C0032C4AA /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		8D02315D1F31DC7C0032C4AA /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		8D02315E1F31DC7C0032C4AA /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		8D02315F1F31DC7C0032C4AA /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		8D0231601F31DC7C0032C4AA /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		8D0231611F31DC7C0032C4AA /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		8D0231621F31DC7C0032C4AA /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		8D0231631F31DC7C0032C4AA /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		8D0231641F31DC7C0032C4AA /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		8D0231651F31DC7C0032C4AA /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		8D0231671F31DC7C0032C4AA /* WRNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WRNavigationBar.h; sourceTree = "<group>"; };
+		8D0231681F31DC7C0032C4AA /* WRNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WRNavigationBar.m; sourceTree = "<group>"; };
+		A9FDCC14E2751BBA7CA33D5C /* libPods-YJChatDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJChatDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B001D0722AD126972D9A205D /* Pods-YJChatDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJChatDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJChatDemoTests/Pods-YJChatDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D625C7406AB323B70BEB323F /* Pods-YJChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJChatDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJChatDemo/Pods-YJChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E82BFD44DBDDBCA26C0F0E18 /* libPods-YJChatDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJChatDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +143,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				731E74B7CAC943028EF85C8D /* libPods-YJChatDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77C6B336FF44038E4335EA84 /* libPods-YJChatDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +159,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636247DAC85FCF88C735566B /* libPods-YJChatDemoUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		381DE3FB2633832008CA3C23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D625C7406AB323B70BEB323F /* Pods-YJChatDemo.debug.xcconfig */,
+				29C68876F323426256C73F75 /* Pods-YJChatDemo.release.xcconfig */,
+				04CB6D1EC99AB538E78841C6 /* Pods-YJChatDemoTests.debug.xcconfig */,
+				B001D0722AD126972D9A205D /* Pods-YJChatDemoTests.release.xcconfig */,
+				06E7135F0990CFC08EBE44E8 /* Pods-YJChatDemoUITests.debug.xcconfig */,
+				4B3685CBBF8C3B3ECAEED9B2 /* Pods-YJChatDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		49292DD73A8301566EC329EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9FDCC14E2751BBA7CA33D5C /* libPods-YJChatDemo.a */,
+				550ACA4EF00413A4575913C7 /* libPods-YJChatDemoTests.a */,
+				E82BFD44DBDDBCA26C0F0E18 /* libPods-YJChatDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8D022F851F31B76C0032C4AA = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +196,8 @@
 				8D022FAD1F31B76C0032C4AA /* YJChatDemoTests */,
 				8D022FB81F31B76C0032C4AA /* YJChatDemoUITests */,
 				8D022F8F1F31B76C0032C4AA /* Products */,
+				381DE3FB2633832008CA3C23 /* Pods */,
+				49292DD73A8301566EC329EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +214,18 @@
 		8D022F901F31B76C0032C4AA /* YJChatDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8D022FC71F31B8A30032C4AA /* YJToolClass */,
+				8D022FCB1F31B8B50032C4AA /* BaseController */,
+				8D022FDD1F31BB870032C4AA /* ChatsVC */,
+				8D022FDE1F31BB870032C4AA /* ContactsVC */,
+				8D022FDF1F31BB870032C4AA /* DiscoverVC */,
+				8D022FE01F31BB870032C4AA /* MeVC */,
 				8D022F941F31B76C0032C4AA /* AppDelegate.h */,
 				8D022F951F31B76C0032C4AA /* AppDelegate.m */,
-				8D022F971F31B76C0032C4AA /* ViewController.h */,
-				8D022F981F31B76C0032C4AA /* ViewController.m */,
-				8D022F9A1F31B76C0032C4AA /* Main.storyboard */,
+				8D0230151F31C2D10032C4AA /* YJChatDemo.pch */,
 				8D022FA01F31B76C0032C4AA /* Assets.xcassets */,
-				8D022FA21F31B76C0032C4AA /* LaunchScreen.storyboard */,
-				8D022FA51F31B76C0032C4AA /* Info.plist */,
-				8D022F9D1F31B76C0032C4AA /* YJChatDemo.xcdatamodeld */,
+				8D022FE71F31C1810032C4AA /* ThirdPath */,
+				8D0230141F31C22E0032C4AA /* Others */,
 				8D022F911F31B76C0032C4AA /* Supporting Files */,
 			);
 			path = YJChatDemo;
@@ -143,6 +257,179 @@
 			path = YJChatDemoUITests;
 			sourceTree = "<group>";
 		};
+		8D022FC71F31B8A30032C4AA /* YJToolClass */ = {
+			isa = PBXGroup;
+			children = (
+				8D022FC81F31B8A30032C4AA /* YJToolClass.h */,
+				8D022FC91F31B8A30032C4AA /* YJToolClass.m */,
+			);
+			path = YJToolClass;
+			sourceTree = "<group>";
+		};
+		8D022FCB1F31B8B50032C4AA /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				8D022FCC1F31B8B50032C4AA /* TabModel */,
+				8D022FCF1F31B8B50032C4AA /* TabView */,
+				8D022FD21F31B8B50032C4AA /* YJBaseViewController.h */,
+				8D022FD31F31B8B50032C4AA /* YJBaseViewController.m */,
+				8D022FD41F31B8B50032C4AA /* YJNavigationController.h */,
+				8D022FD51F31B8B50032C4AA /* YJNavigationController.m */,
+				8D022FD61F31B8B50032C4AA /* YJRootTabBarController.h */,
+				8D022FD71F31B8B50032C4AA /* YJRootTabBarController.m */,
+			);
+			path = BaseController;
+			sourceTree = "<group>";
+		};
+		8D022FCC1F31B8B50032C4AA /* TabModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D022FCD1F31B8B50032C4AA /* YJTabBarButton.h */,
+				8D022FCE1F31B8B50032C4AA /* YJTabBarButton.m */,
+			);
+			path = TabModel;
+			sourceTree = "<group>";
+		};
+		8D022FCF1F31B8B50032C4AA /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				8D022FD01F31B8B50032C4AA /* YJTabBarView.h */,
+				8D022FD11F31B8B50032C4AA /* YJTabBarView.m */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
+		8D022FDD1F31BB870032C4AA /* ChatsVC */ = {
+			isa = PBXGroup;
+			children = (
+				8D022FE11F31BBBB0032C4AA /* ChatsViewController.h */,
+				8D022FE21F31BBBB0032C4AA /* ChatsViewController.m */,
+			);
+			path = ChatsVC;
+			sourceTree = "<group>";
+		};
+		8D022FDE1F31BB870032C4AA /* ContactsVC */ = {
+			isa = PBXGroup;
+			children = (
+				8D022FE41F31BBD30032C4AA /* ContactsViewController.h */,
+				8D022FE51F31BBD30032C4AA /* ContactsViewController.m */,
+			);
+			path = ContactsVC;
+			sourceTree = "<group>";
+		};
+		8D022FDF1F31BB870032C4AA /* DiscoverVC */ = {
+			isa = PBXGroup;
+			children = (
+				8D02300E1F31C1D90032C4AA /* DiscoverViewController.h */,
+				8D02300F1F31C1D90032C4AA /* DiscoverViewController.m */,
+			);
+			path = DiscoverVC;
+			sourceTree = "<group>";
+		};
+		8D022FE01F31BB870032C4AA /* MeVC */ = {
+			isa = PBXGroup;
+			children = (
+				8D0230111F31C1ED0032C4AA /* MeViewController.h */,
+				8D0230121F31C1ED0032C4AA /* MeViewController.m */,
+			);
+			path = MeVC;
+			sourceTree = "<group>";
+		};
+		8D022FE71F31C1810032C4AA /* ThirdPath */ = {
+			isa = PBXGroup;
+			children = (
+				8D0231481F31DC7C0032C4AA /* MBProgressHUD+LYJ */,
+				8D02314B1F31DC7C0032C4AA /* PPNetworkHelper */,
+				8D0231501F31DC7C0032C4AA /* SDAutoLayout */,
+				8D0231561F31DC7C0032C4AA /* SDCycleScrollView */,
+				8D0231661F31DC7C0032C4AA /* WRNavigationBar */,
+			);
+			path = ThirdPath;
+			sourceTree = "<group>";
+		};
+		8D0230141F31C22E0032C4AA /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				8D022F971F31B76C0032C4AA /* ViewController.h */,
+				8D022F981F31B76C0032C4AA /* ViewController.m */,
+				8D022F9A1F31B76C0032C4AA /* Main.storyboard */,
+				8D022FA21F31B76C0032C4AA /* LaunchScreen.storyboard */,
+				8D022FA51F31B76C0032C4AA /* Info.plist */,
+				8D022F9D1F31B76C0032C4AA /* YJChatDemo.xcdatamodeld */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		8D0231481F31DC7C0032C4AA /* MBProgressHUD+LYJ */ = {
+			isa = PBXGroup;
+			children = (
+				8D0231491F31DC7C0032C4AA /* MBProgressHUD+LYJ.h */,
+				8D02314A1F31DC7C0032C4AA /* MBProgressHUD+LYJ.m */,
+			);
+			path = "MBProgressHUD+LYJ";
+			sourceTree = "<group>";
+		};
+		8D02314B1F31DC7C0032C4AA /* PPNetworkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				8D02314C1F31DC7C0032C4AA /* PPNetworkCache.h */,
+				8D02314D1F31DC7C0032C4AA /* PPNetworkCache.m */,
+				8D02314E1F31DC7C0032C4AA /* PPNetworkHelper.h */,
+				8D02314F1F31DC7C0032C4AA /* PPNetworkHelper.m */,
+			);
+			path = PPNetworkHelper;
+			sourceTree = "<group>";
+		};
+		8D0231501F31DC7C0032C4AA /* SDAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8D0231511F31DC7C0032C4AA /* SDAutoLayout.h */,
+				8D0231521F31DC7C0032C4AA /* UITableView+SDAutoTableViewCellHeight.h */,
+				8D0231531F31DC7C0032C4AA /* UITableView+SDAutoTableViewCellHeight.m */,
+				8D0231541F31DC7C0032C4AA /* UIView+SDAutoLayout.h */,
+				8D0231551F31DC7C0032C4AA /* UIView+SDAutoLayout.m */,
+			);
+			path = SDAutoLayout;
+			sourceTree = "<group>";
+		};
+		8D0231561F31DC7C0032C4AA /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				8D0231571F31DC7C0032C4AA /* PageControl */,
+				8D0231601F31DC7C0032C4AA /* SDCollectionViewCell.h */,
+				8D0231611F31DC7C0032C4AA /* SDCollectionViewCell.m */,
+				8D0231621F31DC7C0032C4AA /* SDCycleScrollView.h */,
+				8D0231631F31DC7C0032C4AA /* SDCycleScrollView.m */,
+				8D0231641F31DC7C0032C4AA /* UIView+SDExtension.h */,
+				8D0231651F31DC7C0032C4AA /* UIView+SDExtension.m */,
+			);
+			path = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		8D0231571F31DC7C0032C4AA /* PageControl */ = {
+			isa = PBXGroup;
+			children = (
+				8D0231581F31DC7C0032C4AA /* TAAbstractDotView.h */,
+				8D0231591F31DC7C0032C4AA /* TAAbstractDotView.m */,
+				8D02315A1F31DC7C0032C4AA /* TAAnimatedDotView.h */,
+				8D02315B1F31DC7C0032C4AA /* TAAnimatedDotView.m */,
+				8D02315C1F31DC7C0032C4AA /* TADotView.h */,
+				8D02315D1F31DC7C0032C4AA /* TADotView.m */,
+				8D02315E1F31DC7C0032C4AA /* TAPageControl.h */,
+				8D02315F1F31DC7C0032C4AA /* TAPageControl.m */,
+			);
+			path = PageControl;
+			sourceTree = "<group>";
+		};
+		8D0231661F31DC7C0032C4AA /* WRNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				8D0231671F31DC7C0032C4AA /* WRNavigationBar.h */,
+				8D0231681F31DC7C0032C4AA /* WRNavigationBar.m */,
+			);
+			path = WRNavigationBar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +437,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D022FBE1F31B76C0032C4AA /* Build configuration list for PBXNativeTarget "YJChatDemo" */;
 			buildPhases = (
+				E79A9ADF0B02A7367A361604 /* [CP] Check Pods Manifest.lock */,
 				8D022F8A1F31B76C0032C4AA /* Sources */,
 				8D022F8B1F31B76C0032C4AA /* Frameworks */,
 				8D022F8C1F31B76C0032C4AA /* Resources */,
+				A47A72D37AFA90D5F3BCBF18 /* [CP] Embed Pods Frameworks */,
+				468F8E752EE72CE4215CFD0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +457,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D022FC11F31B76C0032C4AA /* Build configuration list for PBXNativeTarget "YJChatDemoTests" */;
 			buildPhases = (
+				2727A17E39FA7EFF43397F41 /* [CP] Check Pods Manifest.lock */,
 				8D022FA61F31B76C0032C4AA /* Sources */,
 				8D022FA71F31B76C0032C4AA /* Frameworks */,
 				8D022FA81F31B76C0032C4AA /* Resources */,
+				18F29AD50ADBB8060DD793FF /* [CP] Embed Pods Frameworks */,
+				9C3E968F302D0781E98E2587 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +478,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D022FC41F31B76C0032C4AA /* Build configuration list for PBXNativeTarget "YJChatDemoUITests" */;
 			buildPhases = (
+				5D2EB2BDCC0D22E69ED54B5A /* [CP] Check Pods Manifest.lock */,
 				8D022FB11F31B76C0032C4AA /* Sources */,
 				8D022FB21F31B76C0032C4AA /* Frameworks */,
 				8D022FB31F31B76C0032C4AA /* Resources */,
+				BE914BD4323BC043435CAD9D /* [CP] Embed Pods Frameworks */,
+				016A88662D9D6EEE023F9BC3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,15 +570,176 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		016A88662D9D6EEE023F9BC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJChatDemoUITests/Pods-YJChatDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18F29AD50ADBB8060DD793FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJChatDemoTests/Pods-YJChatDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2727A17E39FA7EFF43397F41 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		468F8E752EE72CE4215CFD0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJChatDemo/Pods-YJChatDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D2EB2BDCC0D22E69ED54B5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9C3E968F302D0781E98E2587 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJChatDemoTests/Pods-YJChatDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A47A72D37AFA90D5F3BCBF18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJChatDemo/Pods-YJChatDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE914BD4323BC043435CAD9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YJChatDemoUITests/Pods-YJChatDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79A9ADF0B02A7367A361604 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8D022F8A1F31B76C0032C4AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D022FD81F31B8B50032C4AA /* YJTabBarButton.m in Sources */,
+				8D02316E1F31DC7C0032C4AA /* TAAbstractDotView.m in Sources */,
+				8D0230101F31C1D90032C4AA /* DiscoverViewController.m in Sources */,
+				8D02316B1F31DC7C0032C4AA /* PPNetworkHelper.m in Sources */,
+				8D022FE61F31BBD30032C4AA /* ContactsViewController.m in Sources */,
+				8D022FD91F31B8B50032C4AA /* YJTabBarView.m in Sources */,
 				8D022F991F31B76C0032C4AA /* ViewController.m in Sources */,
+				8D0231741F31DC7C0032C4AA /* UIView+SDExtension.m in Sources */,
+				8D022FCA1F31B8A30032C4AA /* YJToolClass.m in Sources */,
+				8D02316F1F31DC7C0032C4AA /* TAAnimatedDotView.m in Sources */,
+				8D0231731F31DC7C0032C4AA /* SDCycleScrollView.m in Sources */,
+				8D02316D1F31DC7C0032C4AA /* UIView+SDAutoLayout.m in Sources */,
+				8D022FDB1F31B8B50032C4AA /* YJNavigationController.m in Sources */,
+				8D0231711F31DC7C0032C4AA /* TAPageControl.m in Sources */,
 				8D022F961F31B76C0032C4AA /* AppDelegate.m in Sources */,
+				8D022FDC1F31B8B50032C4AA /* YJRootTabBarController.m in Sources */,
+				8D02316A1F31DC7C0032C4AA /* PPNetworkCache.m in Sources */,
 				8D022F931F31B76C0032C4AA /* main.m in Sources */,
+				8D0230131F31C1ED0032C4AA /* MeViewController.m in Sources */,
+				8D022FDA1F31B8B50032C4AA /* YJBaseViewController.m in Sources */,
 				8D022F9F1F31B76C0032C4AA /* YJChatDemo.xcdatamodeld in Sources */,
+				8D0231691F31DC7C0032C4AA /* MBProgressHUD+LYJ.m in Sources */,
+				8D0231701F31DC7C0032C4AA /* TADotView.m in Sources */,
+				8D0231751F31DC7C0032C4AA /* WRNavigationBar.m in Sources */,
+				8D02316C1F31DC7C0032C4AA /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				8D022FE31F31BBBB0032C4AA /* ChatsViewController.m in Sources */,
+				8D0231721F31DC7C0032C4AA /* SDCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,6 +825,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YJChatDemo/YJChatDemo.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -415,6 +874,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = YJChatDemo/YJChatDemo.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -431,30 +892,37 @@
 		};
 		8D022FBF1F31B76C0032C4AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D625C7406AB323B70BEB323F /* Pods-YJChatDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PHUF2ASV3Q;
 				INFOPLIST_FILE = YJChatDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liuyingjieyeah.YJChatDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8D022FC01F31B76C0032C4AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29C68876F323426256C73F75 /* Pods-YJChatDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PHUF2ASV3Q;
 				INFOPLIST_FILE = YJChatDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liuyingjieyeah.YJChatDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		8D022FC21F31B76C0032C4AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04CB6D1EC99AB538E78841C6 /* Pods-YJChatDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = PHUF2ASV3Q;
@@ -468,6 +936,7 @@
 		};
 		8D022FC31F31B76C0032C4AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B001D0722AD126972D9A205D /* Pods-YJChatDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = PHUF2ASV3Q;
@@ -481,6 +950,7 @@
 		};
 		8D022FC51F31B76C0032C4AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E7135F0990CFC08EBE44E8 /* Pods-YJChatDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = PHUF2ASV3Q;
 				INFOPLIST_FILE = YJChatDemoUITests/Info.plist;
@@ -493,6 +963,7 @@
 		};
 		8D022FC61F31B76C0032C4AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B3685CBBF8C3B3ECAEED9B2 /* Pods-YJChatDemoUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = PHUF2ASV3Q;
 				INFOPLIST_FILE = YJChatDemoUITests/Info.plist;
@@ -522,6 +993,7 @@
 				8D022FC01F31B76C0032C4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D022FC11F31B76C0032C4AA /* Build configuration list for PBXNativeTarget "YJChatDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +1002,7 @@
 				8D022FC31F31B76C0032C4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8D022FC41F31B76C0032C4AA /* Build configuration list for PBXNativeTarget "YJChatDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +1011,7 @@
 				8D022FC61F31B76C0032C4AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
