@@ -24,7 +24,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     
     //判断是否添加引导页或启动广告,此处省略...
-    
+    //jisji
     //添加根控制器
     _tabBarVC = [[YJRootTabBarController alloc]init];
     self.window.rootViewController = _tabBarVC;
