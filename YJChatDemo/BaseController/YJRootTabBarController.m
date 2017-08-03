@@ -99,9 +99,14 @@
     ChatsViewController *chatVC = [[ChatsViewController alloc]init];
     [self setUpChildViewController:chatVC title:@"微信" imageName:@"" selectedImage:@""];
     
-
+    ContactsViewController *contactsVC = [[ContactsViewController alloc]init];
+    [self setUpChildViewController:contactsVC title:@"通讯录" imageName:@"" selectedImage:@""];
     
-
+    DiscoverViewController *discoverVC = [[DiscoverViewController alloc]init];
+    [self setUpChildViewController:discoverVC title:@"发现" imageName:@"" selectedImage:@""];
+    
+    MeViewController *meVC = [[MeViewController alloc]init];
+    [self setUpChildViewController:meVC title:@"我" imageName:@"" selectedImage:@""];
 }
 
 

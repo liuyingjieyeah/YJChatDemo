@@ -6,8 +6,8 @@
 //  Copyright © 2017年 liuyingjie. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "YJTableViewController.h"
 
-@interface ChatsViewController : UITableViewController
+@interface ChatsViewController : YJTableViewController
 
 @end
