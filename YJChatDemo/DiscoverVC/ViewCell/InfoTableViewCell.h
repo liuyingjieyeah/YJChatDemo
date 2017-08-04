@@ -8,9 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol InfoTableViewCellDelegate <NSObject>
+
+- (void)didClickLikeButtonInCell:(UITableViewCell *)cell;
+- (void)didClickcCommentButtonInCell:(UITableViewCell *)cell;
+
+@end
+
+
+
+
 @class InfoModel;
 
 @interface InfoTableViewCell : UITableViewCell
+
+@property (nonatomic, assign) id<InfoTableViewCellDelegate> delegate;
 
 @property (nonatomic, strong) InfoModel *inModel;
 

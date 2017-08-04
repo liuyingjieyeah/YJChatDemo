@@ -181,5 +181,10 @@
     return _ModelArray;
 }
 
+- (void)dealloc{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+
+}
+
 
 @end

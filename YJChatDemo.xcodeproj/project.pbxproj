@@ -62,6 +62,8 @@
 		8D0231A91F33035D0032C4AA /* pic8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D0231991F33035D0032C4AA /* pic8.jpg */; };
 		8D0231AA1F33035D0032C4AA /* picon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8D02319A1F33035D0032C4AA /* picon.jpg */; };
 		8D0231AD1F3305590032C4AA /* YJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231AC1F3305590032C4AA /* YJTableViewController.m */; };
+		8D0231B11F33088D0032C4AA /* MomentsCellOperationMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231B01F33088D0032C4AA /* MomentsCellOperationMenu.m */; };
+		8D0231B31F3315530032C4AA /* Discover.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0231B21F3315530032C4AA /* Discover.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -176,6 +178,9 @@
 		8D02319A1F33035D0032C4AA /* picon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = picon.jpg; sourceTree = "<group>"; };
 		8D0231AB1F3305590032C4AA /* YJTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJTableViewController.h; sourceTree = "<group>"; };
 		8D0231AC1F3305590032C4AA /* YJTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJTableViewController.m; sourceTree = "<group>"; };
+		8D0231AF1F33088D0032C4AA /* MomentsCellOperationMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsCellOperationMenu.h; sourceTree = "<group>"; };
+		8D0231B01F33088D0032C4AA /* MomentsCellOperationMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsCellOperationMenu.m; sourceTree = "<group>"; };
+		8D0231B21F3315530032C4AA /* Discover.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Discover.xcassets; sourceTree = "<group>"; };
 		A9FDCC14E2751BBA7CA33D5C /* libPods-YJChatDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJChatDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B001D0722AD126972D9A205D /* Pods-YJChatDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJChatDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJChatDemoTests/Pods-YJChatDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		D625C7406AB323B70BEB323F /* Pods-YJChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJChatDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJChatDemo/Pods-YJChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -267,6 +272,7 @@
 				8D022F941F31B76C0032C4AA /* AppDelegate.h */,
 				8D022F951F31B76C0032C4AA /* AppDelegate.m */,
 				8D0230151F31C2D10032C4AA /* YJChatDemo.pch */,
+				8D0231B21F3315530032C4AA /* Discover.xcassets */,
 				8D022FA01F31B76C0032C4AA /* Assets.xcassets */,
 				8D02318A1F33035D0032C4AA /* Picture */,
 				8D022FE71F31C1810032C4AA /* ThirdPath */,
@@ -370,6 +376,7 @@
 				8D0231821F33033C0032C4AA /* Model */,
 				8D0231851F33033C0032C4AA /* ViewCell */,
 				8D02317E1F3303280032C4AA /* HeaderView */,
+				8D0231AE1F33086C0032C4AA /* MomentsCellOperationMenu */,
 				8D02300E1F31C1D90032C4AA /* DiscoverViewController.h */,
 				8D02300F1F31C1D90032C4AA /* DiscoverViewController.m */,
 			);
@@ -530,6 +537,15 @@
 			path = Picture;
 			sourceTree = "<group>";
 		};
+		8D0231AE1F33086C0032C4AA /* MomentsCellOperationMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8D0231AF1F33088D0032C4AA /* MomentsCellOperationMenu.h */,
+				8D0231B01F33088D0032C4AA /* MomentsCellOperationMenu.m */,
+			);
+			path = MomentsCellOperationMenu;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -664,6 +680,7 @@
 				8D0231AA1F33035D0032C4AA /* picon.jpg in Resources */,
 				8D0231A91F33035D0032C4AA /* pic8.jpg in Resources */,
 				8D02319C1F33035D0032C4AA /* icon1.jpg in Resources */,
+				8D0231B31F3315530032C4AA /* Discover.xcassets in Resources */,
 				8D02319F1F33035D0032C4AA /* icon4.jpg in Resources */,
 				8D022F9C1F31B76C0032C4AA /* Main.storyboard in Resources */,
 				8D02319D1F33035D0032C4AA /* icon2.jpg in Resources */,
@@ -859,6 +876,7 @@
 				8D0231751F31DC7C0032C4AA /* WRNavigationBar.m in Sources */,
 				8D02316C1F31DC7C0032C4AA /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				8D022FE31F31BBBB0032C4AA /* ChatsViewController.m in Sources */,
+				8D0231B11F33088D0032C4AA /* MomentsCellOperationMenu.m in Sources */,
 				8D0231721F31DC7C0032C4AA /* SDCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
