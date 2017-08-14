@@ -64,6 +64,8 @@
 		8D0231AD1F3305590032C4AA /* YJTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231AC1F3305590032C4AA /* YJTableViewController.m */; };
 		8D0231B11F33088D0032C4AA /* MomentsCellOperationMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231B01F33088D0032C4AA /* MomentsCellOperationMenu.m */; };
 		8D0231B31F3315530032C4AA /* Discover.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0231B21F3315530032C4AA /* Discover.xcassets */; };
+		8D0231B91F384D660032C4AA /* TYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231B61F384D660032C4AA /* TYFPSLabel.m */; };
+		8D0231BA1F384D660032C4AA /* TYFPSMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0231B81F384D660032C4AA /* TYFPSMonitor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +183,10 @@
 		8D0231AF1F33088D0032C4AA /* MomentsCellOperationMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MomentsCellOperationMenu.h; sourceTree = "<group>"; };
 		8D0231B01F33088D0032C4AA /* MomentsCellOperationMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MomentsCellOperationMenu.m; sourceTree = "<group>"; };
 		8D0231B21F3315530032C4AA /* Discover.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Discover.xcassets; sourceTree = "<group>"; };
+		8D0231B51F384D660032C4AA /* TYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYFPSLabel.h; sourceTree = "<group>"; };
+		8D0231B61F384D660032C4AA /* TYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYFPSLabel.m; sourceTree = "<group>"; };
+		8D0231B71F384D660032C4AA /* TYFPSMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYFPSMonitor.h; sourceTree = "<group>"; };
+		8D0231B81F384D660032C4AA /* TYFPSMonitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYFPSMonitor.m; sourceTree = "<group>"; };
 		A9FDCC14E2751BBA7CA33D5C /* libPods-YJChatDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YJChatDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B001D0722AD126972D9A205D /* Pods-YJChatDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJChatDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YJChatDemoTests/Pods-YJChatDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		D625C7406AB323B70BEB323F /* Pods-YJChatDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YJChatDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YJChatDemo/Pods-YJChatDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -395,6 +401,7 @@
 		8D022FE71F31C1810032C4AA /* ThirdPath */ = {
 			isa = PBXGroup;
 			children = (
+				8D0231B41F384D660032C4AA /* TYFPSLabel */,
 				8D0231481F31DC7C0032C4AA /* MBProgressHUD+LYJ */,
 				8D02314B1F31DC7C0032C4AA /* PPNetworkHelper */,
 				8D0231501F31DC7C0032C4AA /* SDAutoLayout */,
@@ -544,6 +551,17 @@
 				8D0231B01F33088D0032C4AA /* MomentsCellOperationMenu.m */,
 			);
 			path = MomentsCellOperationMenu;
+			sourceTree = "<group>";
+		};
+		8D0231B41F384D660032C4AA /* TYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8D0231B51F384D660032C4AA /* TYFPSLabel.h */,
+				8D0231B61F384D660032C4AA /* TYFPSLabel.m */,
+				8D0231B71F384D660032C4AA /* TYFPSMonitor.h */,
+				8D0231B81F384D660032C4AA /* TYFPSMonitor.m */,
+			);
+			path = TYFPSLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -868,10 +886,12 @@
 				8D0231811F3303280032C4AA /* MomentsHeaerView.m in Sources */,
 				8D02316A1F31DC7C0032C4AA /* PPNetworkCache.m in Sources */,
 				8D022F931F31B76C0032C4AA /* main.m in Sources */,
+				8D0231B91F384D660032C4AA /* TYFPSLabel.m in Sources */,
 				8D0230131F31C1ED0032C4AA /* MeViewController.m in Sources */,
 				8D022FDA1F31B8B50032C4AA /* YJBaseViewController.m in Sources */,
 				8D022F9F1F31B76C0032C4AA /* YJChatDemo.xcdatamodeld in Sources */,
 				8D0231691F31DC7C0032C4AA /* MBProgressHUD+LYJ.m in Sources */,
+				8D0231BA1F384D660032C4AA /* TYFPSMonitor.m in Sources */,
 				8D0231701F31DC7C0032C4AA /* TADotView.m in Sources */,
 				8D0231751F31DC7C0032C4AA /* WRNavigationBar.m in Sources */,
 				8D02316C1F31DC7C0032C4AA /* UITableView+SDAutoTableViewCellHeight.m in Sources */,

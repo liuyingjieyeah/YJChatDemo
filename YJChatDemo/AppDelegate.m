@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "YJRootTabBarController.h"
+#import "TYFPSLabel.h"
 
 @interface AppDelegate ()
 
@@ -30,6 +31,9 @@
     self.window.rootViewController = _tabBarVC;
     
     [self.window makeKeyAndVisible];
+    
+    [TYFPSLabel showInStutasBar];
+    
     return YES;
 }
 
